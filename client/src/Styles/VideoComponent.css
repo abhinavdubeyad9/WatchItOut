@@ -1,0 +1,22 @@
+.video_component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh !important;
+}
+
+.video {
+  width: 75%;
+  height: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .video_component {
+    margin-top: 20%;
+    height: 50vh;
+  }
+
+  .video {
+    width: 90%;
+  }
+}
